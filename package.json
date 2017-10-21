@@ -7,7 +7,8 @@
     "compile": "babel src --presets react --out-dir static",
     "watch": "babel src --presets react --out-dir static --watch",
     "test": "echo \"Error: no test specified\" && exist 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "dev": "concurrently \"npm run start\" \"npm run watch\""
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/walkerzheng/pro-mean-stack#readme",
   "dependencies": {
+    "concurrently": "^3.5.0",
     "express": "^4.16.2",
     "nodemon": "^1.12.1"
   },
