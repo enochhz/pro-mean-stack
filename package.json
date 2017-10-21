@@ -4,9 +4,9 @@
   "description": "Codes in Pro Mean Stack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "scripts": {
+    "compile": "babel src --presets react --out-dir static",
+    "watch": "babel src --presets react --out-dir static --watch",
+    "test": "echo \"Error: no test specified\" && exist 1",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -22,5 +22,9 @@
   "dependencies": {
     "express": "^4.16.2",
     "nodemon": "^1.12.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
