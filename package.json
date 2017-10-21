@@ -1,0 +1,26 @@
+{
+  "name": "pro-mean-stack",
+  "version": "1.0.0",
+  "description": "Codes in Pro Mean Stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerzheng/pro-mean-stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walkerzheng/pro-mean-stack/issues"
+  },
+  "homepage": "https://github.com/walkerzheng/pro-mean-stack#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1"
+  }
+}
